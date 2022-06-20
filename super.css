@@ -1,7 +1,9 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
+
 
 body{
     font-family: "Roboto", sans-serif;
@@ -97,3 +99,8 @@ margin-left: auto;
 margin-right: auto;
 display: block;
 }
+
+.row{
+    display: flex;
+}
+
