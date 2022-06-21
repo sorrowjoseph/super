@@ -4,6 +4,13 @@
     box-sizing: border-box;
 }
 
+.col-8 p a{
+    color: #d59541;
+}
+
+b{
+     color: #d59541;
+}
 
 body{
     font-family: "Roboto", sans-serif;
@@ -79,6 +86,14 @@ body{
     font-weight: 100;
     margin: 20px 0;
 }
+.headline-title-bold{
+    font-weight: 500;
+}
+
+.headline-title-no-t-margin{
+    margin-top: 0;
+    padding-top: 0;
+}
 
 .semi-wrapper{
     margin: 40px 0;
@@ -102,5 +117,35 @@ display: block;
 
 .row{
     display: flex;
+    margin-top: 20px;
+    padding: 0 10px;
 }
+
+.row-t-margin{
+    margin-top: 20px;
+}
+
+.row-gutters > div{
+    padding-right: 65px;
+}
+
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+.col-4{
+    width: 37%;
+}
+
+.col-8{
+    width: 67%;
+    margin-right: -65px;
+}
+
+.col-8 p{
+    line-height: 30px;
+}
+
 
