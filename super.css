@@ -148,4 +148,69 @@ img{
     line-height: 30px;
 }
 
+.feature-row{
+    background-color: #2f5572;
+    padding-bottom: 100px;
+}
+
+.feature-box{
+    max-width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.our-features{
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    color: #fff;
+    font-size: 60px;
+    padding: 60px 0;
+    margin-top: 30px;
+}
+.feature-bold{
+    font-weight: 700;
+}
+
+.star{
+    margin-right: 30px;
+}
+
+.row-1, .row-2{
+    display: flex;
+}
+
+.row-1{
+    margin-bottom: 40px;
+}
+
+.feature-item{
+    display: flex;
+    margin-right: 60px;
+}
+
+.feature-item img{
+    height: 60px;
+    width: 60px;
+}
+
+.feature-text{
+    display: flex;
+    flex-direction: column;
+    padding-left: 40px;
+    color: #fff;
+}
+
+.feature-text p{
+    line-height: 2;
+}
+
+.mountain{
+    max-width: 100%;
+    height: 115vh;
+    display: block;
+}
+
+.real-testimonials{
+    display: flex;
+}
 
